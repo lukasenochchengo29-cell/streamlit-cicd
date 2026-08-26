@@ -56,10 +56,4 @@ docker build -t streamlit-calc .
 docker run -p 8501:8501 streamlit-calc
 ```
 
-## Notes & next steps
 
-- Investigate the Streamlit exit code 137 (check system memory and Streamlit logs).
-- Add CI configuration (GitHub Actions) to run tests and build/push Docker images automatically.
-- Improve tests to cover edge cases for the calculator.
-
-If you'd like, I can open a PR with this README change, add CI workflow, or expand the notes with more detail from git history.
